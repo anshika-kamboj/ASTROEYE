@@ -1,7 +1,7 @@
 #include<iostream>
 #include<cmath>
 #include<vector>
-#define t 5       //max linking length
+#define tt 5       //max linking length
 #define minobjects 3 //min objects required to form clusters
 // object class to store details of an object
 using namespace std;
@@ -32,7 +32,7 @@ bool is_safe(int j,vector<int> cluster,object ob[])
     {
         int ind=cluster[i]; //all indexes of cluster store index values of objects present in cluster
        distance = dist(ob[j],ob[ind]);
-       if(distance>t || distance ==0)
+       if(distance>tt || distance ==0)
        {
        return false;
        }
@@ -77,7 +77,7 @@ void display(vector<vector<int>> clusters,object ob[],vector<int> & visited)
 {
     int i;
      cout<<"\n******************************************************************************\n";
-    cout<<"\n\n A cluster is  formed only if "<<minobjects<<" or more objects are such that \n distance of every point from each other is less than or equal to "<<t<<" . \n\n";
+    cout<<"\n\n A cluster is  formed only if "<<minobjects<<" or more objects are such that \n distance of every point from each other is less than or equal to "<<tt<<" . \n\n";
     cout<<"\n______________________________________________________________________________\n";
     for(i=0;i<clusters.size();i++)
     {
@@ -107,7 +107,7 @@ void display(vector<vector<int>> clusters,object ob[],vector<int> & visited)
     cout<<"\n______________________________________________________________________________\n";
 
 }
-int clustersidentification()
+int cluster()
 {
     int number;
     double scale;
