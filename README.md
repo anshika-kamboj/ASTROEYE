@@ -6,24 +6,27 @@ Our Project “AstroEye” aims at dealing with problem related to astronomical/
 AstroEye consists of 4 parts which help in different areas:
 1.	 Constellation Identifier – Based on an Image on night sky, converted to text format, wherein the period (.) represents empty space and asterisk (*) represents the presence of star at that positon, this segment aims at identifying if there is any possible constellation being formed in the image by the stars.
 
-Approaches Used
+Approaches Used:
 Backtracking and Dynamic Programming
-Taken By: Nipun Mittal 
 
 
-2.	 Astronomical Object Indexer - When astronomers analyze telescope images, they check whether newly observed objects appear in the catalog of known objects. To aid this process, this segment aims at providing the index of the observed object with respect to distance, from the nearest catalog object.                                   Approach Used: 
+2.	 Astronomical Object Indexer - When astronomers analyze telescope images, they check whether newly observed objects appear in the catalog of known objects. To aid this process, this segment aims at providing the index of the observed object with respect to distance, from the nearest catalog object.
+
+Approach Used: 
 Divide and Conquer
-Taken By: Vaibhav Singh
 
 
-4.	 Cluster Identification - Clusters are large groups of objects (here celestial) held together .Cluster identification helps the user to identify clusters just by giving the input as coordinates of celestial objects.                                 Approach Used: 
+3.	 Cluster Identification - Clusters are large groups of objects (here celestial) held together .Cluster identification helps the user to identify clusters just by giving the input as coordinates of celestial objects.
+   
+Approach Used: 
 Backtracking  
-Taken By: Anshika Kamboj
 
 
-6.	Distance between Galaxies Analyser - In astrophysics, Correlation Functions (CF) is a measurement of the distribution of pairwise distances between astronomical objects. This segment helps in finding the distances via the Correlation Functions and find shortest paths as needed as per them.                                                                                       Approach Used: 
+4.	Distance between Galaxies Analyser - In astrophysics, Correlation Functions (CF) is a measurement of the distribution of pairwise distances between astronomical objects. This segment helps in finding the distances via the Correlation Functions and find shortest paths as needed as per them.
+   
+Approach Used: 
 Greedy Algorithm
-Taken By: Usman Mufti 
+
 
 **DETAILS ABOUT SEGMENTS**
 
